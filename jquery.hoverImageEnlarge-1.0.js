@@ -1,6 +1,6 @@
 /*
  * HoverImageEnlarge.js 1.0
- * Written by Jack O'Connor
+ * Written by Jack O'Connor http://jackocnr.com
  * Copyright 2011, Bit Circus http://bitcircus.co.uk
  * Released under the WTFPL license 
  * http://sam.zoy.org/wtfpl/
