@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HoverImageEnlarge.js</title>
+	<style type="text/css">
+		#wrapper {
+			position: relative;
+			width: 820px;
+			height: 616px;
+			margin: 100px auto;
+		}
+		.profile-pic-box {
+			width: 150px;
+			height: 150px;
+			overflow: hidden;
+			position: absolute;
+		}
+		#grow-up-right {bottom: 0;left: 0;}
+		#grow-down-right {top: 0;left: 0;}
+		#grow-up-left {top: 0;right: 0;}
+		#grow-down-left {bottom: 0;right: 0;}
+		.profile-pic {
+			position: absolute;
+			top: -64px;
+			left: -72px;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="profile-pic-box" id="grow-up-right">
+			<img class="profile-pic" src="http://www.bitcircus.co.uk/img/profiles/jack-full.png" />
+		</div>
+		<div class="profile-pic-box" id="grow-down-right">
+			<img class="profile-pic" src="http://www.bitcircus.co.uk/img/profiles/jack-full.png" />
+		</div>
+		<div class="profile-pic-box" id="grow-up-left">
+			<img class="profile-pic" src="http://www.bitcircus.co.uk/img/profiles/jack-full.png" />
+		</div>
+		<div class="profile-pic-box" id="grow-down-left">
+			<img class="profile-pic" src="http://www.bitcircus.co.uk/img/profiles/jack-full.png" />
+		</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="jquery.hoverImageEnlarge-1.0.js"></script>
+	<script>
+  		$(".profile-pic").hoverImageEnlarge();
+	</script>
+</body>
+</html>
+		
+		
