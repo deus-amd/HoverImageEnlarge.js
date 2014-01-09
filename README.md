@@ -1,5 +1,5 @@
 # HoverImageEnlarge.js
-A jQuery plugin for a nice enlarge effect when hovering images. For an example, see http://bitcircus.co.uk/#about
+A jQuery plugin for a nice enlarge effect when hovering images. For an example, see http://bitcircus.co.uk/#!/about
 
 ## How it works
 Start with a positioned div which has a fixed width and height (set to the size of the thumbnail you want to display), and overflow:hidden. Inside that div, put your img tag for your larger image, set it to position:absolute and give the top and left styles a negative value so you get the right thumbnail showing through. Then add these scripts:
